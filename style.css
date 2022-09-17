@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #929ea5 16.62%, hsl(184, 8%, 63%) 85.61%);
+  }
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.buttonRed {
+    background-color: rgb(230, 17, 17);
+}
+
+.buttonYellow {
+    background-color: rgb(230, 226, 17);
+}
+
+.buttonGreen {
+    background-color: rgb(17, 230, 17);
+}
+
+.buttonoff {
+    background-color: rgb(167, 157, 157);
+}
+
+.buttonAuto {
+    background-color: rgba(150, 229, 240, 0.767);
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+ 
